@@ -1,0 +1,169 @@
+/* General Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Header & Navigation */
+  
+  header {
+    background-color: #f0f0f0;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  h1, h2 {
+    margin: 0;
+    font-weight: normal;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+  }
+  
+  nav {
+    background-color: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav li:last-child {
+    margin-right: 0;
+  }
+  
+  /* Main Content */
+  
+  main {
+    padding: 40px;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  .hero {
+    text-align: center;
+  }
+  
+  .hero img {
+    display: block;
+    margin: auto;
+  }
+  
+  .hero p {
+    margin-top: 20px;
+    font-size: 1.1em;
+    line-height: 1.5;
+  }
+  
+  .products {
+    text-align: center;
+  }
+  
+  .product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+  }
+  
+  .product {
+    width: calc(33% - 40px);
+    margin: 20px;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: left;
+  }
+  
+  .product h3 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+  }
+  
+  .services,
+  .about,
+  .contact {
+    border-top: 1px solid #ddd;
+    padding-top: 40px;
+  }
+  
+  .services ul {
+    list-style: disc;
+    padding-left: 20px;
+  }
+  
+  .services li,
+  .about p,
+  .contact p {
+    margin-bottom: 15px;
+    line-height: 1.5;
+  }
+  
+  /* Contact Form */
+  
+  .contact form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .contact form label {
+    width: 48%;
+    margin-bottom: 10px;
+  }
+  
+  .contact form input,
+  .contact form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    resize: none;
+  }
+  
+  .contact form button {
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 15px;
+  }
+  
+  /* Footer */
+  
+  footer {
+    background-color: #f0f0f0;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
