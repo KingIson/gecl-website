@@ -7,9 +7,7 @@ body {
     color: #333;
   }
 
-  .logo {
-    height: 50px; /* adjust height to your logo size */
-  width: auto;
+  .logo { 
   display: inline-block;
   vertical-align: middle;
   margin-left: 10px; /* adjust margin to your preference */
