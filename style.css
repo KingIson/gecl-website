@@ -6,6 +6,15 @@ body {
     padding: 0;
     color: #333;
   }
+
+  .logo {
+    height: 50px; /* adjust height to your logo size */
+  width: auto;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px; /* adjust margin to your preference */
+
+  }
   
   a {
     text-decoration: none;
