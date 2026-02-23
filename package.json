@@ -1,0 +1,12 @@
+{
+  "name": "gecl-website",
+  "private": true,
+  "scripts": {
+    "dev": "/Users/ison/.bun/bin/bun x serve . -l 3000",
+    "start": "bun run dev"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "^5"
+  }
+}
