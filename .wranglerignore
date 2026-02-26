@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+bun.lock
+
+# Build outputs
+.firebase/
+.vscode/
+*.log
+
+# Config files (not needed for static site)
+.firebaserc
+firebase.json
+tsconfig.json
+
+# Cache directories
+.cache/
+.DS_Store
+
+# Git
+.git/
+.gitignore
+
+# Wrangler logs
+.wrangler/
