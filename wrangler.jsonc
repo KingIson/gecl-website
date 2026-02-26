@@ -1,0 +1,22 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "gecl-website",
+  "compatibility_date": "2025-09-27",
+  "observability": {
+    "enabled": true
+  },
+  "assets": {
+    "directory": ".",
+    "binding": "ASSETS",
+    "rules": [
+      {
+        "type": "Glob",
+      "glob": "**/*",
+      "fallthrough": true
+      }
+    ]
+  },
+  "compatibility_flags": [
+    "nodejs_compat"
+  ]
+}
